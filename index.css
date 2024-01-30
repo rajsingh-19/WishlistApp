@@ -1,0 +1,127 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.main{
+    background-color: #083344;
+}
+.heading {
+    font-size: 4rem;
+    text-align: center;
+    font-style: italic;
+    font-weight: 550;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #d1d5db;
+}
+.todo-form {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.input {
+    font-size: 2rem;
+    width: 70%;
+    border-radius: 5px;
+    padding: 5px;
+}
+.btn {
+    width: 10%;
+    font-size: 2rem;
+    border-radius: 5px;
+    padding: 5px;
+    cursor: pointer;
+    background-color: #ea580c;
+    color: white;
+}
+.todosContainer {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#delId {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 5px;
+    color: whitesmoke;
+    background-color: #292524;
+    border-radius: 5px;
+    border: 1px solid #333;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.inpCheck {
+    margin: 5px;
+    width: 10%;
+    font-size: 2rem;
+    height: 20px;
+}
+.labels {
+    margin: 5px;
+    width: 80%;
+    font-size: 2rem;
+}
+.delBtn {
+    font-size: 2rem;
+    margin: 5px;
+    cursor: pointer;
+    width: 10%;
+    padding: 5px;
+    background-color: #b91c1c;
+    background-color: #be123c;
+    color: whitesmoke;
+    border-radius: 5px;
+}
+@media (max-width: 1024px) and (min-width:769px)  {
+    .heading {
+        font-size: 3.5rem;
+    }
+    .input, .btn {
+        font-size: 1.5rem;
+    } 
+    .inpCheck, .labels, .delBtn {
+        font-size: 1.5rem;
+    }
+}
+@media (max-width: 768px) and (min-width: 481px) {
+    .heading {
+        font-size: 3rem;
+    }
+    .input, .btn {
+        font-size: 1.25rem;
+    }
+    .inpCheck, .labels {
+        font-size: 1.25rem;
+    }
+    .delBtn {
+        font-size: 1.1rem;
+    }
+}
+@media (max-width: 480px) and (min-width: 320px) {
+    .heading {
+        font-size: 2.5rem;
+    }
+    .input {
+        font-size: 1rem;
+        width: 65%;
+    }
+    .btn {
+        font-size: 1rem;
+        width: 15%;
+    }
+    .labels {
+        font-size: 1.2rem;
+        width: 75%;
+    }
+    .inpCheck {
+        height: 16px;
+        width: 10%;
+    }
+    .delBtn {
+        font-size: 1.2rem;  
+        width: 15%; 
+    }
+}
