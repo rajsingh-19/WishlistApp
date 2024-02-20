@@ -4,7 +4,7 @@ let addBtn = document.querySelector(".btn");
 let todosContainer = document.querySelector(".todosContainer");
 
 addBtn.addEventListener("click", (e) => {
-    e.preventDefault(); // it stops to do the default operation of form i.e., submition
+    e.preventDefault(); 
     todoInput.value = todoInput.value.trim();
     if(todoInput.value.length > 0) {
         addToTodos();
